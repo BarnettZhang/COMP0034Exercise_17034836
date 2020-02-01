@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <title>Rain Blog Home</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img src="https://api.adorable.io/avatars/84/123.png" width="50" height="50" alt="Rain Blog" style="float: left">
-  <a class="navbar-brand" href="#">Rain Blog</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <img src="https://api.adorable.io/avatars/84/123.png" alt="Rain Blog" style="float: left"  class="navbar-brand">
+  <a class="navbar-brand" href="HomePage.html">Rain Blog</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="HomePage.html">Home</a>
-      <a class="nav-item nav-link" href="SignUp.html">Sign Up</a>
-    </div>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <u1 class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-item nav-link active" href="HomePage.html">Home </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-item nav-link" href="SignUp.html">Sign Up</a>
+          </li>
+      </u1>
   </div>
 </nav>
-<section>
+<div class="container bg-light">
+  <div class="row">
+    <div class="col">
+
+    <section>
+        <div class="container">
+  <div class="row">
+    <div class="col">
     <h2>Blog Title</h2>
+    </div>
+      <div class="col">
+
+     <nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search for Cities/Blog Content" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+</div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Vivamus arcu felis bibendum ut tristique et. Justo laoreet sit amet cursus. Integer malesuada nunc vel risus.
         In mollis nunc sed id semper risus in hendrerit gravida. Nunc mattis enim ut tellus elementum sagittis vitae et leo.
@@ -27,12 +52,9 @@
         Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Egestas sed sed risus pretium quam vulputate dignissim.
         Aliquet porttitor lacus luctus accumsan tortor posuere. Aliquet nec ullamcorper sit amet risus nullam.</p>
 </section>
-<nav class="navbar navbar-light bg-light">
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search for Cities/Blog Content" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
-</nav>
 
+</div>
+</div>
+</div>
 </body>
 </html>
